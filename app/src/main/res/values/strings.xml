@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Demo_Registration</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="dashboard">Continue to Dashboard</string>
+    <string name="generate_otp">Generate OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verify_sign_in">Verify and Sign In</string>
+    <string name="sign_out">sign out</string>
+    <string name="locations">Choose State</string>
+    <string name="username">Enter Your Name</string>
+    <string name="language">Enter Your Name</string>
+    <string name="data">Enter Your Name</string>
+    <string-array name="state_arrays">
+        <item>Uttar Pradesh</item>
+        <item>Madhya Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>Punjab</item>
+        <item>Haryana</item>
+        <item>Sikkim</item>
+        <item>Assam</item>
+        <item>Kerela</item>
+        <item>Hydrebad</item>
+        <item>Telangana</item>
+        <item>Himachal Pradesh</item>
+    </string-array>
+    <string-array name="language_arrays">
+        <item>English</item>
+        <item>Malyalam</item>
+        <item>Marathi</item>
+        <item>Hindi</item>
+        <item>Gujarati</item>
+        <item>Kannad</item>
+    </string-array>
+
+
+</resources>

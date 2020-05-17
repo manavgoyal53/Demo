@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.hbb20.CountryCodePicker
+        android:id = "@+id/ccp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        app:ccp_autoDetectCountry="true"
+        app:ccp_showNameCode="true"
+        app:ccp_textSize="16sp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/et_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/phone_number"
+        android:inputType="phone"
+        android:textColor="@color/textColor"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <EditText
+        android:id="@+id/et_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:clickable="false"
+        android:hint="@string/enter_otp"
+        android:textColor="@color/textColor"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <Button
+        android:id="@+id/btn_generate_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorAccent"
+        android:hint="@string/generate_otp"
+        android:textColor="@color/textColor"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorAccent"
+        android:hint="@string/verify_sign_in"
+        android:textColor="@color/textColor"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="306dp" />
+
+</LinearLayout>
