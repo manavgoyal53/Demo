@@ -3,9 +3,11 @@
     <string name="phone_number">Phone Number</string>
     <string name="dashboard">Continue to Dashboard</string>
     <string name="generate_otp">Generate OTP</string>
+    <string name="tandc">Terms and Condtitions:
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ipsum mauris, viverra et ante in, posuere ultricies lacus. Ut ac tortor dolor. Suspendisse eu nunc ut massa euismod facilisis ac et mauris. Morbi a mollis tortor. Praesent efficitur odio id est fringilla maximus. Praesent efficitur sodales tortor, ac blandit ligula scelerisque in. Phasellus ultrices, mi et lobortis dapibus, metus tortor accumsan tortor, vestibulum sodales purus dui eget mauris. Nam elementum, diam eu consectetur aliquam, libero erat elementum felis, id lacinia lacus tellus nec ex. Fusce tincidunt leo nec sem tempus scelerisque. Vestibulum sit amet suscipit nulla.</string>
     <string name="enter_otp">Enter OTP</string>
     <string name="verify_sign_in">Verify and Sign In</string>
-    <string name="sign_out">sign out</string>
+    <string name="sign_out">Sign out</string>
     <string name="locations">Choose State</string>
     <string name="username">Enter Your Name</string>
     <string name="language">Enter Your Name</string>
